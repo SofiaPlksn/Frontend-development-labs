@@ -1,0 +1,39 @@
+.header {
+    border-bottom: 2px solid black;
+    font-family: Helvetica, serif;
+    width: 90%;
+    margin: auto;
+    margin-top: 3.5em;
+
+    h1 {
+        display: inline-block;
+        margin-right: 3em;
+        font-size: 2.5em;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    nav a {
+        margin-right: 1.5em;
+        text-decoration: none;
+        color: green;
+    }
+}
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+        font-family: Helvetica, serif;
+        margin-bottom: 1.5em;
+        line-height: 1.5em;
+    }
+
+    h1 {
+        font-family: Garamond, serif;
+        margin-bottom: 0;
+    }
+}
