@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(52, 100, 156);
+    color: white;
+}
+
+.container {
+    width: 99%;
+    margin: 20px auto;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+}
