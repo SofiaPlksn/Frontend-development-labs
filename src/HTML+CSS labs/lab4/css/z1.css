@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    background-color: rgba(143, 139, 139, 0.2);
+    padding: 5%;
+    min-height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgb(193, 191, 191);
+    box-sizing: border-box;
+}
+
+header {
+    flex: 0 1 auto;
+    background-color: white;
+    padding: 2%;
+    min-height: 20vh;
+}
+
+section {
+    margin-top: 2%;
+    flex: 10;
+    display: flex;
+}
+
+main, aside{
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgb(193, 191, 191);
+    box-sizing: border-box;
+}
+
+main {
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    flex: 2 1 0;
+}
+
+aside {
+    background-color: white;
+    margin-left: 2%;
+    padding: 2%;
+    flex: 1 1 0;
+}
+
+footer {
+    margin-top: 2%;
+    background-color: white;
+    padding: 2%;
+    flex: 0 1 auto;
+    min-height: 15vh;
+}

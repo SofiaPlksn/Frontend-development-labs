@@ -4,6 +4,8 @@ out/
 !**/src/test/**/out/
 .idea/
 picturesdemo/
+images/
+
 
 
 ### Eclipse ###
@@ -30,3 +32,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/src/HTML+CSS labs/lab4/images/
+/picturesdemo/
