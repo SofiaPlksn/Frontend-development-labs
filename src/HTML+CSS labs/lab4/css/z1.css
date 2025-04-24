@@ -1,56 +1,48 @@
 body {
     display: flex;
-    background-color: rgba(143, 139, 139, 0.2);
-    padding: 5%;
-    min-height: 100vh;
-    flex-direction: column;
-    box-sizing: border-box;
-}
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: whitesmoke;
 
-header,
-footer {
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgb(193, 191, 191);
-    box-sizing: border-box;
-}
+    h1 {
+        font-size: small;
+        font-weight: lighter;
+    }
 
-header {
-    flex: 0 1 auto;
-    background-color: white;
-    padding: 2%;
-    min-height: 20vh;
-}
+    header,
+    main,
+    aside,
+    footer {
+        padding: 20px;
+        margin: 0.7rem;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 1px 5px 4px rgba(45, 48, 71, 0.171);
+    }
 
-section {
-    margin-top: 2%;
-    flex: 10;
-    display: flex;
-}
+    header {
+        flex: 0 1 100%;
+        clear: both;
+        height: 7em;
+    }
 
-main, aside{
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgb(193, 191, 191);
-    box-sizing: border-box;
-}
+    main {
+        flex: 0 0 65%;
+        float: left;
+        height: 15em;
+    }
 
-main {
-    background-color: white;
-    padding: 2%;
-    display: flex;
-    flex: 2 1 0;
-}
+    aside {
+        /*flex-basis: calc(40% - 0.5em*4 - 10px*4 - 5px*3);*/
+        flex: 1 1 0%;
+        float: right;
+    }
 
-aside {
-    background-color: white;
-    margin-left: 2%;
-    padding: 2%;
-    flex: 1 1 0;
-}
-
-footer {
-    margin-top: 2%;
-    background-color: white;
-    padding: 2%;
-    flex: 0 1 auto;
-    min-height: 15vh;
+    footer {
+        flex: 0 1 100%;
+        clear: both;
+        height: 4em;
+    }
 }
