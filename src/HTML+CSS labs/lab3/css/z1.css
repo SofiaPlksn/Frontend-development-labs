@@ -1,7 +1,6 @@
 body {
-    display: flex;
     background-color: #fff;
-    margin-top: 100px;
+    margin-top: auto;
 }
 .center-box {
     width: 200px;
@@ -9,8 +8,7 @@ body {
     border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
-    margin: 100px auto;
-    font-family: Arial, sans-serif;
-    color: black;
+    margin: auto;
+    text-align: center;
 }
 
