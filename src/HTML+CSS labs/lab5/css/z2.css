@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgb(238, 238, 238);
+    padding: 40px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: relative;
+}
+
+.tab {
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    right: 15rem;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border: 1px solid #000;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 2;
+}
+
+button {
+    width: 75px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.input-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+}
