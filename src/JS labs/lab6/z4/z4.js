@@ -7,7 +7,6 @@ function search() {
         $(this).html($(this).text());
     });
 
-    // Ищем совпадения и форматируем
     $('#towns li').each(function() {
         const itemText = $(this).text().toLowerCase();
         if (searchText && itemText.includes(searchText)) {
